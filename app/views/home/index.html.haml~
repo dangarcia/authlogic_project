@@ -1,0 +1,6 @@
+#user_nav
+    - if current_user
+      = "Signed in as #{current_user.email}. Not you? Fuck yourself"
+      = link_to "Sign out", logout_path
+    - else
+      - link_to "Sign in", new_user_session_path
