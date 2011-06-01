@@ -1,0 +1,5 @@
+<h1><%= @username %>'s Page</title>
+<p>Your number of logins are <%= @user_login_count %>
+   Would you like to logout?
+</p>
+

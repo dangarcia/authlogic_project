@@ -1,0 +1,6 @@
+<h1>users/index.html.erb</h1>
+<p> This is what the user see's at /users that seems wrong </p>
+<p> This is the page the user is directed to after login" </p>
+<p> Shouldn't it be their unique page? like users/1 or something </p>
+<p><%= "#{current_user.login}" %> </p>
+<li><%= link_to "Would you like to logout?", logout_path %> </li>

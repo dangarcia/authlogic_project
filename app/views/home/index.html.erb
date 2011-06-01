@@ -1,0 +1,5 @@
+<h1>Home user see's when signed in</h1>
+<p> home/index.html.erb </p>
+<p> <%= "You are logged in as #{current_user.login}"%> </p>
+<p> <%= "You have logged in #{current_user.login_count} times "%> </p>
+<li><%= link_to "Would you like to logout?", logout_path %> </li>
